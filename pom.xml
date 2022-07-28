@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>663a0048-7c7b-47be-9b95-bde284c854c9</groupId>
 	<artifactId>mule-dataverse-connector</artifactId>
-	<version>1.1.6</version>
+	<version>1.1.7</version>
 	<packaging>mule-extension</packaging>
 	<name>Dataverse Token - Mule4</name>
 	<description>Dataverse connector Mulesoft Graph</description>

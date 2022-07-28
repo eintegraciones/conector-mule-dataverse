@@ -82,8 +82,9 @@ public class DataverseQuery {
 			int statusCode = httpResponse.getStatusLine().getStatusCode();
 			if (statusCode == HttpURLConnection.HTTP_OK) {
 				String response = dataverseUtil.getBodyResponse(httpResponse.getEntity().getContent());
-				JSONObject jResponse = new JSONObject(response);
-				responseJson = jResponse.toString();
+				/*JSONObject jResponse = new JSONObject(response);
+				responseJson = jResponse.toString();*/
+				responseJson = response;
 			} else if (statusCode == HttpURLConnection.HTTP_NO_CONTENT) { 
 				responseJson = "{\"data\":\"204 - No content\"}";
 			} else {

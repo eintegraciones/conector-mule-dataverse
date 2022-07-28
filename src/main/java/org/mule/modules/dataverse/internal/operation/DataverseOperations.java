@@ -51,7 +51,7 @@ public class DataverseOperations {
 		this.expressionManager = expressionManager;
 	}
 
-	@MediaType(value = MediaType. APPLICATION_JSON, strict = false)
+	@MediaType(value = MediaType.ANY, strict = false)
 	@DisplayName("Select ODATA")
     @Summary("Select to retrieve information from the dataverse with the ODATA api")
 	@Throws(DataverseErrorProvider.class)
